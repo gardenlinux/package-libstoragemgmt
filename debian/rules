@@ -11,6 +11,9 @@ include /usr/share/dpkg/buildflags.mk
 %:
 	dh $@ --with python3,autoreconf,systemd
 
+source:
+	:
+
 override_dh_auto_clean:
 	:
 
