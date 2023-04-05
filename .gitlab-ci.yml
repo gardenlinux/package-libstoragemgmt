@@ -1,0 +1,10 @@
+include:
+  project: gardenlinux/gardenlinux-package-build
+  file: pipeline/pipeline-git.yml
+
+variables:
+  SOURCE_NAME: libstoragemgmt
+  SOURCE_REPO: https://github.com/libstorage/libstoragemgmt
+  SOURCE_TAG_PREFIX: ''
+  BUILD_ARCH_ALL: 'true'
+
