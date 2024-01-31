@@ -1,0 +1,11 @@
+diff --git a/debian/libstoragemgmtd.install b/debian/libstoragemgmtd.install
+index f9192f4..113a85c 100644
+--- a/debian/libstoragemgmtd.install
++++ b/debian/libstoragemgmtd.install
+@@ -1,5 +1,5 @@
+ usr/bin/lsmd
+ usr/share/man/man1/lsmd.1
+-lib/systemd/system/libstoragemgmt.service
++usr/lib/systemd/system/libstoragemgmt.service
+ etc/lsm/pluginconf.d/*
+ usr/lib/tmpfiles.d/*

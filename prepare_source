@@ -1,0 +1,4 @@
+version_orig=1.9.8
+version="$version_orig-0"
+git_src --branch "$version_orig" https://github.com/libstorage/libstoragemgmt
+apply_patches
